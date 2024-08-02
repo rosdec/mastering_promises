@@ -25,7 +25,7 @@ function fetchData(url) {
 }
 
 // Example usage
-const apiURL = 'https://reqres.in/api/users/2';
+const apiURL = 'https://reqres.in/api/users/2'; // use https://reqres.in/api/users/2 for check the failure 
 
 fetchData(apiURL)
     .then(data => {
